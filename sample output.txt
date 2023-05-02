@@ -1,0 +1,66 @@
+Hot Cross Buns: 
+B A G B A G G G G A A A B A G 
+
+Demonstrating inherited method (transposition):
+Clarinet Hot Cross Buns; Bb tuning:
+Db B A Db B A A A A B B B Db B A
+Eb Clarinet Hot Cross Buns; Eb tuning:
+Gb E D Gb E D D D D E E E Gb E D 
+Guitar Hot Cross Buns on the 5th fret:
+Gb E D Gb E D D D D E E E Gb E D
+Piano Hot Cross Buns:
+B A G B A G G G G A A A B A G 
+
+Demonstrating abstract method and polymorphism (tuning instructions):
+
+Tuning instructions for the Fender guitar:
+Tune the guitar by turning the tuning pegs.
+The highest pitch string should be tuned to E, the next to A, the next to D, the next to G, the next to B, and the lowest string to E.
+
+Tuning instructions for the Steinway piano:
+Tune the piano by turning the tuning pins with a tuning hammer.
+This should be done by a professional piano tuner, and not by the owner.
+
+Tuning instructions for the Yamaha clarinet:
+Tune the clarinet by pulling the mouthpiece out or pushing it in.
+The mouthpiece should be pulled out to lower the pitch and pushed in to raise the pitch.
+Open C on the clarinet should be tuned to the Bb on a piano.
+Tune the notes C, G, and low E on the clarinet to the corresponding notes on a piano.
+
+Demonstrating compareTo (compares by price):
+
+Unsorted lists:
+
+Guitars:
+Guitar{price=1000.0, brand='Fender', electric=true, capoFret=5}
+Guitar{price=500.0, brand='Gibson', electric=false, capoFret=0}
+Guitar{price=200.0, brand='Epiphone', electric=true, capoFret=0}
+
+Pianos:
+Piano{price=10000.0, brand='Steinway', digital=false}
+Piano{price=5000.0, brand='Yamaha', digital=true}
+Piano{price=2000.0, brand='Kawai', digital=false}
+
+Clarinets:
+Clarinet{tuning=Bb, price=500.0, brand='Yamaha'}
+Clarinet{tuning=Bb, price=200.0, brand='Buffet'}
+Clarinet{tuning=Bb, price=100.0, brand='Selmer'}
+Clarinet{tuning=Eb, price=1000.0, brand='Buffet'}
+
+Sorted lists:
+
+Guitars:
+Guitar{price=200.0, brand='Epiphone', electric=true, capoFret=0}
+Guitar{price=500.0, brand='Gibson', electric=false, capoFret=0}
+Guitar{price=1000.0, brand='Fender', electric=true, capoFret=5}
+
+Pianos:
+Piano{price=2000.0, brand='Kawai', digital=false}
+Piano{price=5000.0, brand='Yamaha', digital=true}
+Piano{price=10000.0, brand='Steinway', digital=false}
+
+Clarinets:
+Clarinet{tuning=Bb, price=100.0, brand='Selmer'}
+Clarinet{tuning=Bb, price=200.0, brand='Buffet'}
+Clarinet{tuning=Bb, price=500.0, brand='Yamaha'}
+Clarinet{tuning=Eb, price=1000.0, brand='Buffet'}
